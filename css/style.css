@@ -64,6 +64,10 @@ a:hover {
     background: transparent linear-gradient(180deg, #7272FF 0%, #9759FF 100%) 0% 0% no-repeat padding-box;
 }
 
+.menubar ul li .sign-up:hover {
+	background: transparent linear-gradient(90deg, #7272FF 0%, #9759FF 100%) 0% 0% no-repeat padding-box;
+}
+
 
 
 /*Suggestion section style goes here*/
@@ -132,7 +136,7 @@ a:hover {
 	background: #F1F1F1 0% 0% no-repeat padding-box; 
 }
 
-.live-now .wifi-icone{
+.category-icone{
 	padding: 10px;
 	font-size: 20px;
 	color: black;
@@ -141,25 +145,25 @@ a:hover {
 	background: #F77F98;
 }
 
-.live-now .live-now-text{
+.category-name{
 	color: #F77F98;
 	font-size: 22px;
 	margin-left: 16px;
 	align-self: center;
 }
 
-.live-now .bigcard-wrapper{
+.bigcard-wrapper{
 	display: grid;
     grid-template-columns: repeat(auto-fit,minmax(337px,1fr));
     grid-gap: 14px;
 }
 
-.live-now .model-img img{
+.model-img img{
 	border-radius: 20px;
 	border: 2px solid #fff;
 }
 
-.live-now .model-img{
+.model-img{
 	min-height: 144px;
 	max-width: 135px;
 	overflow: hidden;
@@ -168,7 +172,7 @@ a:hover {
 }
 
 
-.live-now .model-info{
+.model-info{
 	flex-grow: 1;
 	align-self: center;
 	background: #fff;
@@ -194,4 +198,110 @@ a:hover {
 .model-info .model-type{
 	font-size: 11px;
 	color:#949498;
+}
+
+.btn-view-more{
+	color:#fff;
+	display: inline-block;
+	padding: 10px 30px;
+	border-radius: 9px;
+	font-size: 14px;
+	background: transparent linear-gradient(90deg, #9759FF 0%, #7272FF 100%) 0% 0% no-repeat padding-box;
+}
+
+.featured{
+	padding: 30px 0px;
+	background: #fff;
+}
+
+.all{
+	padding: 30px 0px;
+	background: #F1F1F1;
+}
+
+
+/*Model of the week */
+
+
+.week{
+	padding: 30px 0px;
+	background: #fff;
+}
+
+.week .title{
+	text-align: center;
+}
+
+.week .model-gallary{
+	flex-grow: 1;
+	display: grid;
+	grid-template: 1fr 1fr/1fr 2fr;
+	grid-gap: 5px;
+}
+
+.week .model-gallary .img-item{
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.week .model-gallary .img-item:nth-child(2){
+	grid-row: 1/-1;
+	grid-column: 2/-1;
+	justify-self:start;
+}
+
+
+.week .gallary-info{
+	flex-grow: 1;
+
+}
+
+.gallary-info .rate{
+	color: #949498;
+	font-size: 11px;
+}
+
+.gallary-info .name{
+	color: #131220;
+	font-size: 18px;
+}
+
+.gallary-info .description{
+	font-size: 14px;
+	color:#989498;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Sign in section style goes here*/
+
+
+.signin{
+	padding: 30px 0px;
+	background: #F1F1F1;
+}
+
+.btn-google{
+	padding: 4px;
+	background: dodgerblue;
+	display: block;
+	border-radius: 5px;
+}
+
+.btn-google img{
+	padding: 10px;
+	background: #fff;
+}
+
+.signin .text-light{
+	font-size: 12px;
+	margin-left: 10px;
 }
