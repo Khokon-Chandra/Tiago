@@ -344,3 +344,38 @@ a:hover {
 	font-size: 12px;
 	color:;
 }
+
+
+/*.......footer section classes........*/
+
+.footer{
+	padding: 20px 0px;
+	background: #E4E3EB;
+}
+
+.footer .line{
+	height: 1px;
+	background: #131220;
+}
+
+.footer .heading{
+	color: #131220;
+	font-size: 18px;
+}
+
+.footer .link{
+	display: block;
+	color:#131220;
+	font-size: 14px;
+	font-weight: 600;
+
+}
+
+.footer .fa{
+	color: #fff;
+	padding: 2px;
+	font-size: 18px;
+	background: #131220;
+	margin-right: 10px;
+	border-radius: 5px;
+}
