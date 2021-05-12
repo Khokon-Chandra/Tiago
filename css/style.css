@@ -213,6 +213,9 @@ a:hover {
 	padding: 30px 0px;
 	background: #fff;
 }
+.featured .model-img,.all .model-img{
+	border: none;
+}
 
 .all{
 	padding: 30px 0px;
@@ -230,6 +233,7 @@ a:hover {
 
 .week .title{
 	text-align: center;
+	color: #42424D;
 }
 
 .week .model-gallary{
@@ -261,15 +265,21 @@ a:hover {
 	font-size: 11px;
 }
 
-.gallary-info .name{
+.gallary-info .model-name{
 	color: #131220;
-	font-size: 18px;
+	font-size:22px;
+}
+.gallary-info .model-title{
+	color: gray;
+	font-size: 12px;
 }
 
 .gallary-info .description{
 	font-size: 14px;
-	color:#989498;
+	color:#4e4d5c;
 }
+
+
 
 
 
@@ -285,23 +295,52 @@ a:hover {
 
 
 .signin{
-	padding: 30px 0px;
+	padding: 35px 0px;
 	background: #F1F1F1;
+}
+.signin .slogan{
+	color:black;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 700;
+}
+.signin .slogan-2{
+	font-size: 28px;
+	text-align: center;
+	font-weight: 400;
 }
 
 .btn-google{
 	padding: 4px;
-	background: dodgerblue;
+	background: #4285F4;
 	display: block;
 	border-radius: 5px;
 }
 
 .btn-google img{
-	padding: 10px;
+	padding: 5px;
 	background: #fff;
+}
+
+.btn-twitter {
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    background: #03AFF0;
+}
+
+.btn-twitter .fa-twitter{
+	font-size: 18px;
+	padding: 8px;
 }
 
 .signin .text-light{
 	font-size: 12px;
 	margin-left: 10px;
+}
+
+.signin label{
+	font-size: 12px;
+	color:;
 }
