@@ -139,6 +139,7 @@ a:hover {
 }
 
 .live-now .model-img img{
+	border-radius: 20px;
 	border: 2px solid #fff;
 }
 
@@ -146,5 +147,13 @@ a:hover {
 	max-width: 135px;
 	overflow: hidden;
 	border-radius: 20px;
-	border:2px solid #fff;
+	border:2px solid  #E31616;
+}
+
+
+.live-now .model-info{
+	background: #fff;
+	padding: 20px;
+	border-radius: 0px 20px 20px 0px;
+	box-shadow: 0px 3px 6px #0000001F;
 }
