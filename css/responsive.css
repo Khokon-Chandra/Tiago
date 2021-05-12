@@ -14,6 +14,9 @@
 		flex-direction: column;
 		text-align: left;
 	}
+	.menubar .large-device ul li .sign-up{
+		display: none;
+	}
 	.menubar .large-device ul li a{
 		display: block;
 		text-align: left;
