@@ -1,0 +1,23 @@
+
+@media (max-width: 1000px){
+	.mobile-view{
+		display: flex!important;
+	}
+	.menubar .large-device{
+		height: 0;
+		overflow: hidden;
+		flex-direction: column;
+		transition: 0.2s;
+	}
+	.menubar .large-device ul{
+		flex-direction: column;
+		text-align: left;
+	}
+	.menubar .large-device ul li a{
+		display: block;
+		text-align: left;
+	}
+	.menubar .large-device ul .logo{
+		display: none;
+	}
+}

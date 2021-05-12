@@ -23,6 +23,13 @@ a:hover {
 }
 
 
+.mobile-view{
+	display: none!important;
+}
+.mobile-view .fa-bars{
+	color: black;
+	font-size: 22px;
+}
 
 
 .menubar{
@@ -55,7 +62,7 @@ a:hover {
 	padding-right: 20px;
 }
 
-.menubar ul li .sign-up{
+.menubar .sign-up{
 	padding: 8px 15px;
 	color: #fff;
 	font-size: 12px;
