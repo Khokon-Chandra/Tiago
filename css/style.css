@@ -132,6 +132,12 @@ a:hover {
 	letter-spacing: 0.43px;
 	border-radius: 9px;
 	border: 2px solid #9759FF;
+	transition: 0.1s;
+}
+
+.btn-follow:hover {
+	color:#fff;
+	background: transparent linear-gradient(180deg, #7272FF 0%, #9759FF 100%) 0% 0% no-repeat padding-box;
 }
 
 
@@ -213,6 +219,12 @@ a:hover {
 	border-radius: 9px;
 	font-size: 14px;
 	background: transparent linear-gradient(90deg, #9759FF 0%, #7272FF 100%) 0% 0% no-repeat padding-box;
+	transition: 0.1s;
+}
+
+.btn-view-more:hover {
+	color:#fff;
+	background: transparent linear-gradient(180deg, #9759FF 0%, #7272FF 100%) 0% 0% no-repeat padding-box;
 }
 
 .featured{
@@ -305,14 +317,15 @@ a:hover {
 	background: #F1F1F1;
 }
 .signin .slogan{
-	color:black;
+	color:#131220;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 32px;
+	font-size: 1.8rem;
 	font-weight: 700;
 }
 .signin .slogan-2{
-	font-size: 28px;
+	color: #131220;
+	font-size: 1.5rem;
 	text-align: center;
 	font-weight: 400;
 }
@@ -337,7 +350,7 @@ a:hover {
 }
 
 .btn-twitter .fa-twitter{
-	font-size: 18px;
+	font-size: 20px;
 	padding: 8px;
 }
 

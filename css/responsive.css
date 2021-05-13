@@ -13,6 +13,7 @@
 	.menubar .large-device ul{
 		flex-direction: column;
 		text-align: left;
+		display: block!important;
 	}
 	.menubar .large-device ul li .sign-up{
 		display: none;
@@ -22,6 +23,12 @@
 		text-align: left;
 	}
 	.menubar .large-device ul .logo{
+		display: none;
+	}
+}
+
+@media (max-width: 769px){
+	.footer{
 		display: none;
 	}
 }
