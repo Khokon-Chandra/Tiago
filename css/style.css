@@ -11,6 +11,7 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
 	background: #E7E6E8;
+	overflow-x: hidden;
 }
 
 li{
@@ -313,9 +314,6 @@ a:hover {
 
 
 
-
-
-
 /*Sign in section style goes here*/
 
 
@@ -338,26 +336,26 @@ a:hover {
 }
 
 .btn-google{
-	padding: 4px;
 	background: #4285F4;
 	display: block;
 	border-radius: 5px;
 }
 
-.btn-google img{
-	padding: 5px;
-	background: #fff;
+.btn-google .fa-google{
+	font-size: 22px;
+	color: #fff;
+	padding: 8px;
 }
 
 .btn-twitter {
     display: block;
-    padding: 5px;
     border-radius: 5px;
     background: #03AFF0;
 }
 
 .btn-twitter .fa-twitter{
-	font-size: 20px;
+	color: #fff;
+	font-size: 22px;
 	padding: 8px;
 }
 
